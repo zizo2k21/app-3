@@ -1,6 +1,10 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+<<<<<<< HEAD
   "version": 1,
+=======
+  "version": 1, 
+>>>>>>> 60ee11319f665b6301a0e3955450283da0c127e7
   "newProjectRoot": "projects",
   "projects": {
     "herg-app": {
@@ -24,6 +28,7 @@
               "src/assets"
             ],
             "styles": [
+<<<<<<< HEAD
               "src/styles.css",
               "node_modules/datatables.net-dt/css/jquery.dataTables.css"
             ],
@@ -31,6 +36,11 @@
               "node_modules/jquery/dist/jquery.js",
               "node_modules/datatables.net/js/jquery.dataTables.js"
             ]
+=======
+              "src/styles.css"
+            ],
+            "scripts": []
+>>>>>>> 60ee11319f665b6301a0e3955450283da0c127e7
           },
           "configurations": {
             "production": {
@@ -123,7 +133,13 @@
           }
         }
       }
+<<<<<<< HEAD
     }
   },
   "defaultProject": "herg-app"
 }
+=======
+    }},
+  "defaultProject": "herg-app"
+}
+>>>>>>> 60ee11319f665b6301a0e3955450283da0c127e7

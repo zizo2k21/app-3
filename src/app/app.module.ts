@@ -12,6 +12,7 @@ import { CounterDashboardComponent } from './counter-dashboard/counter-dashboard
 import { QrDashboardComponent } from './qr-dashboard/qr-dashboard.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { FormsModule } from '@angular/forms';
+<<<<<<< HEAD
 import { ListDemandComponent } from './list-demand/list-demand.component';
 
 import { DataTablesModule } from 'angular-datatables';
@@ -21,6 +22,9 @@ import { StatDemandComponent } from './stat-demand/stat-demand.component';
 import { PayListComponent } from './pay-list/pay-list.component';
 import { PayStatComponent } from './pay-stat/pay-stat.component';
 import { SickListComponent } from './sick-list/sick-list.component';
+=======
+
+>>>>>>> 60ee11319f665b6301a0e3955450283da0c127e7
 
 
 @NgModule({
@@ -33,6 +37,7 @@ import { SickListComponent } from './sick-list/sick-list.component';
     SidebarDashboardComponent,
     CounterDashboardComponent,
     QrDashboardComponent,
+<<<<<<< HEAD
     SignUpComponent,
     ListDemandComponent,
     ListDemandCComponent,
@@ -41,12 +46,19 @@ import { SickListComponent } from './sick-list/sick-list.component';
     PayListComponent,
     PayStatComponent,
     SickListComponent
+=======
+    SignUpComponent
+>>>>>>> 60ee11319f665b6301a0e3955450283da0c127e7
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+<<<<<<< HEAD
     FormsModule,
     DataTablesModule
+=======
+    FormsModule
+>>>>>>> 60ee11319f665b6301a0e3955450283da0c127e7
   ],
   providers: [],
   bootstrap: [AppComponent]

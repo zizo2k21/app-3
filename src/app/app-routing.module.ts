@@ -3,6 +3,7 @@ import { HomeComponent } from './home/home.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { SignUpComponent } from './sign-up/sign-up.component';
+<<<<<<< HEAD
 import { ListDemandComponent } from './list-demand/list-demand.component';
 import { ListDemandCComponent } from './list-demand-c/list-demand-c.component';
 import { ListDemandNcComponent } from './list-demand-nc/list-demand-nc.component';
@@ -11,6 +12,8 @@ import { PayListComponent } from './pay-list/pay-list.component';
 import { PayStatComponent } from './pay-stat/pay-stat.component';
 import { SickListComponent } from './sick-list/sick-list.component';
 
+=======
+>>>>>>> 60ee11319f665b6301a0e3955450283da0c127e7
 
 const routes: Routes = [
   {
@@ -25,6 +28,7 @@ const routes: Routes = [
   {
     path: 'sign-up',
     component: SignUpComponent
+<<<<<<< HEAD
   },
   {
     path: 'list-demand',
@@ -51,6 +55,11 @@ const routes: Routes = [
 ];
 
 
+=======
+  }
+];
+
+>>>>>>> 60ee11319f665b6301a0e3955450283da0c127e7
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
